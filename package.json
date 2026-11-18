@@ -1,5 +1,5 @@
 {
-  "name": "foto-maja-redesign-demo",
+  "name": "fotomaja",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test src/data/pricing.test.js src/i18n/i18n.test.js"
+    "test": "node --test src/data/pricing.test.js src/i18n/i18n.test.js",
+    "build:docs": "vite build --outDir docs --emptyOutDir"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",

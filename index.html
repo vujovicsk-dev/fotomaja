@@ -9,7 +9,16 @@
     <title>Foto-Maja – Esküvői fotózás · Zenta &amp; Szeged</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Ova poruka se vidi SAMO ako GitHub Pages prikazuje izvorni kod umesto gotovog sajta. -->
+      <div class="setup-hint" style="font-family:system-ui,sans-serif;max-width:640px;margin:15vh auto;padding:24px;line-height:1.6;color:#141414;opacity:0;animation:fm-show .3s ease 2.5s forwards">
+        <h1 style="font-size:22px;margin:0 0 12px">GitHub Pages nije podešen ispravno</h1>
+        <p style="margin:0 0 8px">Prikazuje se izvorni kod umesto gotovog sajta. U repozitorijumu otvorite <b>Settings → Pages</b> i izaberite:</p>
+        <p style="margin:0 0 8px"><b>Source: Deploy from a branch</b> → Branch: <b>main</b> → folder <b>/docs</b> → Save.</p>
+        <p style="margin:0;color:#5E5850">(Ili: Source: GitHub Actions, pa Actions → „Deploy na GitHub Pages“ → Run workflow.)</p>
+      </div>
+      <style>@keyframes fm-show{to{opacity:1}}</style>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
